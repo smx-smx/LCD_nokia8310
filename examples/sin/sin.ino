@@ -13,7 +13,7 @@ void loop() {
   lcd.Clear(); //clear screen
   for(int x = 0; x < 84; x++)
   {
-    lcd.Print(x, sin((x/pi)*0.3)+24);
+    lcd.Print(x, sin((x/M_PI)*0.3)+24);
   }
   lcd.Update();	//update screen
   delay(1000);
